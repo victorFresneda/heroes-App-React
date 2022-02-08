@@ -1,6 +1,9 @@
+import { useParams } from "react-router-dom";
 
 
 export const HeroScreen = () => {
+
+   const { heroeId } = useParams();
   return(
 
         <div> 
